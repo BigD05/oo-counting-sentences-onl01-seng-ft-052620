@@ -34,7 +34,7 @@ class String
     i = 0 
     self.split(".","?")
     i +=1
-    puts i 
+   return i 
   end 
    
 end
