@@ -32,7 +32,7 @@ class String
 
   def count_sentences_words
 i = 0 
-if self.split(".","?","!")
+if self.split("/\.|\?|\!/")
 i += 1 
 
 return i 
