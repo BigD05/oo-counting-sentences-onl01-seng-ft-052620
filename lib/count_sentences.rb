@@ -39,5 +39,5 @@ class String
      return 0 
       end 
 end
-self 
+
 end
