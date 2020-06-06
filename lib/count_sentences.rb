@@ -31,6 +31,13 @@ class String
   end
 
   def count_sentences
-
-  end
+    i = 0 
+    self.each do |count| 
+    if count > 0 
+      i+=1 
+    else 
+     return 0 
+      end 
+end
+self 
 end
