@@ -30,10 +30,11 @@ class String
 
   end
 
-  def count_sentences?
-    
-   if count_sentences?.split(".","?","!")
-   count_sentences?.count 
+  def count_sentences
+    count = 0
+   if count_sentences.split(".","?","!")
+   count_sentences.count 
+   count += 1 
   
   end 
 end 
