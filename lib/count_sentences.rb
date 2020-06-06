@@ -31,10 +31,10 @@ class String
   end
 
   def count_sentences?
-    i = 0 
-   if count_sentences.split(".","?","!")
-    i +=1
-   return i 
+    
+   if self.split(".","?","!")
+   self.count 
+  
   end 
 end 
    
