@@ -33,5 +33,6 @@ class String
   def count_sentences_words
 
 sentence = self.split("/\.|\?|\!/")
+sentence.count 
 
   end
