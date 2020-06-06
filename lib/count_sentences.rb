@@ -33,9 +33,4 @@ def count_sentences?
   self.split(/\.+|\?+|\!+/).count
 end 
 end 
-  def count_sentences_words
-
-
- 
-
-  end
+  
