@@ -32,8 +32,8 @@ class String
 
   def count_sentences_words
 
-sentence = self.split("/\.|\?|\!/")
-sentence.count 
+self.split(/\.+|\?+|\!+/).count
+ 
 end 
 
   end
