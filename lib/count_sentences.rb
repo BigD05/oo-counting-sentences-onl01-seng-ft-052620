@@ -33,6 +33,8 @@ class String
   def count_sentences?
     i = 0 
     self.split(".","?")
-    
+    i +=1
+    puts i 
+  end 
    
 end
