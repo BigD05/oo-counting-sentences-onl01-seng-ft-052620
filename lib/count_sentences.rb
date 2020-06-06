@@ -31,8 +31,11 @@ class String
   end
 
   def count_sentences_words
-   self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size 
-  end
+i = 0 
+if self.split(".","?","!")
+i += 1 
 
+return i 
+end 
    
 end
