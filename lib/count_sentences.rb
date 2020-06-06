@@ -34,5 +34,6 @@ class String
 
 sentence = self.split("/\.|\?|\!/")
 sentence.count 
+end 
 
   end
